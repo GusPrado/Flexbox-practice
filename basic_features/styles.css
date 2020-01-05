@@ -1,0 +1,32 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* row: vertical - column: horizontal */
+  justify-content: center; /* row: horizontal  - column: vertical */
+  /*  align-content: center; align itens on bronken lines (flex-wrap:wrap) */
+  
+}
+
+.box {
+  width: 100px;
+  height: 60px;
+  background: #f00;
+  margin: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
